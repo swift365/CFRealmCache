@@ -1,0 +1,16 @@
+PODS:
+  - CFRealmCache (0.1.0)
+
+DEPENDENCIES:
+  - CFRealmCache (from `../`)
+
+EXTERNAL SOURCES:
+  CFRealmCache:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CFRealmCache: 071d04066951359ae50aafe41ba5b17bd0697deb
+
+PODFILE CHECKSUM: a43e1f04f13b34ba01d2b85e11049c854643cec2
+
+COCOAPODS: 1.1.1

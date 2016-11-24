@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'CFRealmCache_Example' do
+  pod 'CFRealmCache', :path => '../'
+
+  target 'CFRealmCache_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

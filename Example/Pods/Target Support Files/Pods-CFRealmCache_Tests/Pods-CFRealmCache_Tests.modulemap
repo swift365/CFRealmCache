@@ -1,0 +1,6 @@
+framework module Pods_CFRealmCache_Tests {
+  umbrella header "Pods-CFRealmCache_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

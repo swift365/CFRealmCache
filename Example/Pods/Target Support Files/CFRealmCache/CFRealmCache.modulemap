@@ -1,0 +1,6 @@
+framework module CFRealmCache {
+  umbrella header "CFRealmCache-umbrella.h"
+
+  export *
+  module * { export * }
+}
