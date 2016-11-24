@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		794F05831DE5EEC57AE322EF /* Pods_CFRealmCache_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19BEC92C42BAF24E782D1446 /* Pods_CFRealmCache_Tests.framework */; };
+		ECE81F991DE6DEF900487707 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE81F981DE6DEF900487707 /* MapModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		68357033B2913B8E315E1A6C /* Pods-CFRealmCache_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFRealmCache_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFRealmCache_Example/Pods-CFRealmCache_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B41741F90D9BB7D45DD81AAA /* Pods-CFRealmCache_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFRealmCache_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CFRealmCache_Tests/Pods-CFRealmCache_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE50F5F6A239A856A3DFFB3A /* CFRealmCache.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CFRealmCache.podspec; path = ../CFRealmCache.podspec; sourceTree = "<group>"; };
+		ECE81F981DE6DEF900487707 /* MapModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
 		EF419C1841ECBB043967BBBB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				ECE81F981DE6DEF900487707 /* MapModel.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -362,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				ECE81F991DE6DEF900487707 /* MapModel.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

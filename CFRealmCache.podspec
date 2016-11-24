@@ -9,5 +9,6 @@ s.source = { :git => 'https://github.com/swift365/CFRealmCache.git', :tag => "0.
 s.ios.deployment_target = '9.0'
 s.source_files = "CFRealmCache/Classes/*", "CFRealmCache/Classes/**/*.swift"
 s.dependency 'RealmSwift'
+s.dependency 'ObjectMapper'
 end
 

@@ -1,5 +1,13 @@
 PODS:
-  - CFRealmCache (0.1.0)
+  - CFRealmCache (0.1.0):
+    - ObjectMapper
+    - RealmSwift
+  - ObjectMapper (2.2.1)
+  - Realm (2.1.0):
+    - Realm/Headers (= 2.1.0)
+  - Realm/Headers (2.1.0)
+  - RealmSwift (2.1.0):
+    - Realm (= 2.1.0)
 
 DEPENDENCIES:
   - CFRealmCache (from `../`)
@@ -9,8 +17,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CFRealmCache: 071d04066951359ae50aafe41ba5b17bd0697deb
+  CFRealmCache: 94fb7e572040446de2b751dbf1f36c0bee3436f6
+  ObjectMapper: 41e43e1a89f8060ef5ea5d04ba852e269a621d68
+  Realm: bc829ad0ef3d4eea70c34cfcc3b1704d18d50df1
+  RealmSwift: a4d4abbf0088c337cab5b738054395842e4b3052
 
-PODFILE CHECKSUM: a43e1f04f13b34ba01d2b85e11049c854643cec2
+PODFILE CHECKSUM: 1af7da17ce3475bdc8382c92f69578260f60eb28
 
 COCOAPODS: 1.1.1
